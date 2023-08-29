@@ -1,0 +1,16 @@
+package br.com.senaisp.bauru.richard.licao01;
+
+import java.util.Scanner;
+
+public class Galoes2LitrosV2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Criação de captura de teclado com o Scanner
+		Scanner sc = new Scanner(System.in);
+		static final double GALOES2LITROS = 3.785;
+		
+	}
+
+}
+.
