@@ -1,0 +1,12 @@
+package br.com.senaisp.bauru.richard.licao02;
+
+public class EstudanteTester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Estudante est = new Estudante();
+		est.nome = "Zé da esquina";
+		System.out.println("Nome: " + est.nome);
+	}
+
+}

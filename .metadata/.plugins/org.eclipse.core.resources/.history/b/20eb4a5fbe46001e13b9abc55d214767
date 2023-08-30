@@ -1,0 +1,17 @@
+package br.com.senaisp.bauru.richard.licao02;
+
+public class Estudante {
+	private String nome;
+	private int idade;
+	private double altura;
+	private boolean fumante;
+	public static final int BIMESTRES = 4; //constante
+	//constructor
+	public Estudante()
+	{
+		nome = "Sem nome";
+		idade = 10;
+		altura = 1.80;
+		fumante = false;
+	}
+}
