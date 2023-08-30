@@ -11,7 +11,7 @@ public class Estudante {
 	public Estudante() // padrão
 	{
 		nome = "Sem nome";
-		idade = 100_000;
+		idade = 10;
 		altura = 1.80;
 		fumante = false;
 	}
