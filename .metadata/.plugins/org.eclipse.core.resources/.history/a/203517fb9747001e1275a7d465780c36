@@ -1,0 +1,9 @@
+package br.com.senaisp.bauru.richard.licao04;
+
+public class TratamentoString {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

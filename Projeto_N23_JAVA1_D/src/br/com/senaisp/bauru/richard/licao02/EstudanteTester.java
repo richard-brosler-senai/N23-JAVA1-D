@@ -3,7 +3,6 @@ package br.com.senaisp.bauru.richard.licao02;
 public class EstudanteTester {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Estudante est = new Estudante();
 		
 		est.setNome("Zé da esquina");

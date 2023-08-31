@@ -1,0 +1,18 @@
+package br.com.senaisp.bauru.richard.licao03;
+
+import java.util.Scanner;
+
+public class InversaoValor {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Program de inversão de valores");
+		System.out.println("Digite o valor a ser invertido:");
+		int vlr = sc.nextInt();
+		// 123 => 321
+		int vlrInv = 0;
+		System.out.println("O valor invertido é " + vlrInv);
+		sc.close();
+	}
+
+}

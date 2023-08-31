@@ -59,7 +59,6 @@ public class Estudante {
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
 		return "Nome : " + getNome() + 
 			   "\nIdade: " + getIdade() +
 			   "\nAltura : " + getAltura() +

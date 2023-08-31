@@ -1,0 +1,9 @@
+package br.com.senaisp.bauru.richard.licao03;
+
+public class TesteIncremento {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
