@@ -1,0 +1,14 @@
+package br.com.senaisp.bauru.richard.licao06;
+
+import java.util.Random;
+
+public class Baralho {
+	private Carta[] cartas;
+	private boolean[] cartaSaiu;
+	private Random rnd;
+	
+	public Baralho() {
+		cartas = new Carta[Carta.NAIPES.length * 
+		                   Carta.NOMES.length];
+	}
+}

@@ -1,0 +1,8 @@
+package br.com.senaisp.bauru.richard.licao06;
+
+public class Carta {
+	public static final String[] NAIPES = 
+		{"Espadas","Ouros","Paus","Copas"};
+	public static final String[] IMAGENS = 
+		{"♠","♦","♣","♥"};
+}
