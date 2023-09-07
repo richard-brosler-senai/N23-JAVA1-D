@@ -6,6 +6,7 @@ public class TesteCarta {
 		try {
 			Carta ct = new Carta("Paus", "10");
 			System.out.println(ct.getImagemCarta());
+			ct = null;
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

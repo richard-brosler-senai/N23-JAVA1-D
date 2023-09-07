@@ -15,7 +15,7 @@ public class Baralho {
 		int id = 0;
 		//criando as cartas
 		for(String np : Carta.NAIPES) {
-			for(String vl: Carta.NOMES) {
+			for(String vl: Carta.NOMES) { //foreach
 				cartas[id] = new Carta(np,vl);
 				cartaSaiu[id] = false;
 				id++;
