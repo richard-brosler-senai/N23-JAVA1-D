@@ -8,15 +8,22 @@ public class TesteMamifero {
 		ma[0] = new Humano();
 		ma[1] = new Felino();
 		ma[2] = new Humano(); //Mamifero(); Não é possível
+		
+		ma[0].setNome("José");
+		ma[1].setNome("Jorge");
+		ma[2].setNome("Marta");
+		
 		//Todo mundo falando!!!
 		for (Mamifero it: ma) {
 			it.falar();
 		}
 		ma[0].alimentar();
+		//comparando o humano com o felino
+		System.out.println(ma[0].compareTo(ma[1]));
 		
-		//TODO Metodos com objetos como parametro
-		//TODO Variaveis estaticas
-		//TODO Classe Final
+		//DONE Metodos com objetos como parametro
+		//DONE Variaveis estaticas
+		//DONE Classe Final
 		//TODO Applet
 	}
 

@@ -4,7 +4,6 @@
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.licao02.Estudante"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.licao04.Forca"/>
-    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.licao06.Carta"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
@@ -12,4 +11,12 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.licao07.Humano"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.licao07.Mamifero"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.licaobonus.Funcionario"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.licaobonus.FolhaPagamento"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.licaobonus.ClasseSingleton"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="java.applet.Applet"/>
+    <fullyQualifiedTypeName name="javax.swing.JApplet"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
 </qualifiedTypeNameHistroy>

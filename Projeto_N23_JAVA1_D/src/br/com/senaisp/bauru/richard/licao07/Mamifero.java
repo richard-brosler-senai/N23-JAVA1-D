@@ -17,9 +17,20 @@ public abstract class Mamifero {
 		this.idade = idade;
 	}
 	
-	public abstract void falar();
+	public void falar() {
+		System.out.println("Mamifero falando");
+	};
 	
 	protected void alimentar() {
 		System.out.println("Alimentando-se");
 	}
+	
+	public int compareTo(Mamifero value) {
+		int ret = 0;
+		
+		ret = nome.compareToIgnoreCase(value.getNome());
+		
+		return ret;
+	}
+	
 }
