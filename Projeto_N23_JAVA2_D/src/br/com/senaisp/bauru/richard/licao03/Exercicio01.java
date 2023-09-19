@@ -32,6 +32,7 @@ public class Exercicio01 {
 					null,
 					null,
 					"Int");
+			//Convertendo texto para inteiro
 			int idade = Integer.parseInt(xIdade);
 			                  //Ano atual
 			int anoNascimento = Year.now().getValue() - idade;
@@ -44,7 +45,23 @@ public class Exercicio01 {
 							JOptionPane.OK_CANCEL_OPTION,
 							JOptionPane.INFORMATION_MESSAGE) 
 							== JOptionPane.OK_OPTION;
-			
+			String xValor = (String)JOptionPane
+					.showInputDialog(
+					null,
+					nome + ", digite quanto você ganha por hora:",
+					"Jogo do Milhão",
+					JOptionPane.INFORMATION_MESSAGE,
+					null,
+					null,
+					"Double");
+			//Convertendo texto para double
+			double valor = Double.parseDouble(xValor);
+			//Calculando o salário de 1 ano
+			double salAno = valor * 8 * 30 * 365.25;
+			//Mostrando o valor
+			JOptionPane.showMessageDialog(null, nome + 
+					", você recebe R$ "+ salAno + " !\n"
+							+ "É muita grana!!!");
 		} else {
 			JOptionPane.showMessageDialog(null, "Que Pena!");
 		}
