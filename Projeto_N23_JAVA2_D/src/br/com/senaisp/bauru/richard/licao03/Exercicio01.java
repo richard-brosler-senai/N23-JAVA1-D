@@ -62,6 +62,36 @@ public class Exercicio01 {
 			JOptionPane.showMessageDialog(null, nome + 
 					", você recebe R$ "+ salAno + " !\n"
 							+ "É muita grana!!!");
+			
+			String[] op01 = {"D.Pedro I", "Tiradentes", 
+					         "Joaquim Chavier", 
+					         "Pedro Alvares Cabral"};
+			
+			String pergunta01 = (String)JOptionPane
+					.showInputDialog(
+					null,
+					nome + ", Quem descobriu o Brasil:",
+					"Jogo do Milhão",
+					JOptionPane.QUESTION_MESSAGE,
+					null,
+					op01,
+					op01[0]);
+			boolean conf01 = JOptionPane.
+					showConfirmDialog(null, 
+							nome + ", Tem certeza disso? ?",
+							"Jogo do Milhão",
+							JOptionPane.OK_CANCEL_OPTION,
+							JOptionPane.QUESTION_MESSAGE) 
+							== JOptionPane.OK_OPTION;
+			
+			if (conf01 && pergunta01.equals("Pedro Alvares Cabral")) 
+			{
+				JOptionPane.showMessageDialog(null, 
+						"Parabéns, vc ganhou R$ 100,00");
+			} else {
+				JOptionPane.showMessageDialog(null, "Que Pena!");				
+			}
+			
 		} else {
 			JOptionPane.showMessageDialog(null, "Que Pena!");
 		}
