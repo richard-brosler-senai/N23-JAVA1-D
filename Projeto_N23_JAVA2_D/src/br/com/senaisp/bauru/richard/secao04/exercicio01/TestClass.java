@@ -16,6 +16,7 @@ public class TestClass {
 			System.out.println("2 - Calcular Hipotenusa");
 			System.out.println("3 - Jogar Dados");
 			System.out.println("4 - Obter sobrenome, inicial nome");
+			System.out.println("5 - Obter sobrenome, inicial nome (versão 2)");
 			System.out.println("9 - Fim");
 			System.out.println("");
 			System.out.println("Escolha a opção:");
@@ -52,10 +53,13 @@ public class TestClass {
 				sc.nextLine();
 				break;
 			case 4:
+			case 5:
 				sc.nextLine();
 				System.out.println("Digite seu nome completo:");
 				String nomeCp = sc.nextLine();
-				String sobreNome = cp.processaNome2(nomeCp);
+				String sobreNome = opc == 4 ? //usando operador ternário
+						cp.processaNome(nomeCp) : //se opc = 4
+						cp.processaNome2(nomeCp); //se opc = 5
 				System.out.println("Resultado: " + sobreNome);
 				System.out.println("Tecle Enter para Voltar ao menu.");
 				sc.nextLine();

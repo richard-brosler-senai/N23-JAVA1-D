@@ -73,14 +73,27 @@ public class ComputeMethods {
 		//Fim da lógica
 		return retorno;
 	}
-	
+	/**
+	 * Função pega o nome com sobrenome e devolve Sobrenome, J. Onde J será
+	 * a letra inicial do nome. Essa função utiliza o Scanner
+	 * como apoio para pegar as partes dos textos já que o
+	 * delimitador padrão do Scanner é o espaço em branco
+	 * 
+	 * @param value Informar o nome completo para ser separado
+	 * @return Retorna o sobrenome, Letra inicial do nome.
+	 */
 	public String processaNome2(String value) {
 		String retorno = "";
+		//Criando o scanner com a entrada baseada no texto
 		Scanner ap = new Scanner(value);
 		String nome = "";
+		//verifica se há como pegar a primeira parte do texto
 		if (ap.hasNext()) nome = ap.next();
-
+		
 		String sobrenome = "";
+		//Enquanto houver espaços ele vai pegando o texto
+		//ao sair vai estar com o último texto, ou seja,
+		//o sobrenome final.
 		while(ap.hasNext()) {
 			sobrenome = ap.next();
 		}
