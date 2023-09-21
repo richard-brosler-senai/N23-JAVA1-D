@@ -6,7 +6,6 @@
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.licao04.Forca"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.licao06.Carta"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.licao06.Baralho"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.licao07.Humano"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.licao07.Mamifero"/>
@@ -25,7 +24,8 @@
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.licao03.TesteJogoLeitura"/>
     <fullyQualifiedTypeName name="java.io.InputStream"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="java.time.Year"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
