@@ -26,4 +26,8 @@
 	</section>
 	<section name="NewWizardAction">
 	</section>
+	<section name="FileSystemExportWizard">
+	</section>
+	<section name="FileSystemImportWizard">
+	</section>
 </section>
