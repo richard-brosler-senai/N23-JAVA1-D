@@ -21,10 +21,7 @@
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.licao03.TesteScanner"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.licao03.TesteJogoLeitura"/>
     <fullyQualifiedTypeName name="java.io.InputStream"/>
-    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.time.Year"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.secao05.Semaforo"/>
     <fullyQualifiedTypeName name="java.awt.Color"/>
     <fullyQualifiedTypeName name="javax.swing.JDialog"/>
@@ -33,5 +30,15 @@
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.secao06.RetanguloAscii"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.secao07.Cartao"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.secao07.CategoriaPremio"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.secao07.Terminal"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.secao07.Jogo"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.secao08.ConexaoBD"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
 </qualifiedTypeNameHistroy>

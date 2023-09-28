@@ -10,7 +10,10 @@ public class Jogo {
 	private String titulo;
 	//Constructor
 	public Jogo() {
-		rnd = new Random();
+		//se quiser sempre a mesma sequencia, fixar a semente
+		//por exemplo 123456
+		//rnd = new Random(123456); 
+		rnd = new Random(); 
 		custoCredito = rnd.nextInt(10)+1;
 		tickets = rnd.nextInt(15)+1;
 		titulo = "Sem titulo";
