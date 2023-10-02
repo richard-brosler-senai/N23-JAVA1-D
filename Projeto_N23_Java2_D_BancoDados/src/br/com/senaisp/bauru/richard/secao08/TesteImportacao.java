@@ -2,7 +2,6 @@ package br.com.senaisp.bauru.richard.secao08;
 
 import java.io.FileInputStream;
 import java.sql.PreparedStatement;
-import java.sql.SQLException;
 import java.util.Scanner;
 
 public class TesteImportacao {
@@ -18,7 +17,7 @@ public class TesteImportacao {
 			  		+ "celular,altura,peso,tipo_sanguineo,cor)"
 			  		+ " values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?,"
 			  		+ "         ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,"
-			  		+ "         ?, ?, ? )"); //24 ?
+			  		+ "         ?, ?, ? )");
 			
 			Scanner sc = new Scanner(new 
 					FileInputStream("c:\\javalibs\\"
