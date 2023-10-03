@@ -5,6 +5,7 @@ import java.util.Random;
 public class Jogo {
 	private static int contador = 0;
 	private static final int FATORCALOR = 25; 
+	public static final double TEMP_MIN = 10.00;
 	//Fields (Campos)
 	private int id;
 	private double temperatura;
@@ -76,4 +77,18 @@ public class Jogo {
 			visitante.addEmpates(1);
 		}
 	}//fim do método
+	@Override
+	public String toString() {
+		return "Jogo " + id + "#\n" + 
+	           "Temperatura: " + temperatura + "\n" +
+			   "Jogador Casa: " + casa.getNome() + ", " +
+	                              golsCasa + "\n"+
+			   "Jogador Visitante: " + visitante.getNome() + 
+			   				   ", " + golsVisitante;
+	}
 }//fim da classe
+
+
+
+
+

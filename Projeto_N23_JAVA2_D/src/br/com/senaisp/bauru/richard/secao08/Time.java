@@ -74,4 +74,19 @@ public class Time {
 	public void addEmpates(int value) {
 		empates += value;
 	}
+	@Override
+	public String toString() {
+		return nome + "\n" +
+	           "Vitórias: " + vitorias + 
+	           ", Derrotas :" + derrotas + 
+	           ", Empates : " + empates + "\n"+
+	           "Gols feitos: " + golsFeitos + 
+	           ", Gols sofridos: " + golsSofridos;
+	}
 }//Final da classe
+
+
+
+
+
+
