@@ -45,6 +45,13 @@ public class Duke extends Group {
 			audio.play();
 		});
 		
+		setOnMouseDragged( (evt)->{
+			double comp = this.getBoundsInLocal().getWidth()/2;
+			double larg = this.getBoundsInLocal().getHeight()/2;
+			
+			setLayoutX(evt.getSceneX()-comp);
+			setLayoutY(evt.getSceneY()-larg);
+		});
 	}
 }
 
